@@ -8,7 +8,7 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 
 function HeaderOptions() {
   return (
-    <div className="flex gap-8">
+    <div className="flex lg:gap-12 gap-2 lg:px-4">
       <div className="flex gap-2">
         <HeaderOption Icon={BiSearchAlt2} title="All" selected></HeaderOption>
         <HeaderOption Icon={FaImages} title="Images"></HeaderOption>

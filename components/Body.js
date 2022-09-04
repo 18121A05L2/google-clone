@@ -13,6 +13,7 @@ export default function Body() {
     if (!searchInput) return;
 
     router.push(`/search?input=${searchInput}`);
+    setSearchInput("")
   }
   return (
     <div className="flex justify-center w-6/7 text-[1rem]">
@@ -26,7 +27,7 @@ export default function Body() {
           ></Image>
         </div>
 
-        <div className="flex justify-between items-center py-2 px-4 m-2  focus-within:shadow-lg border text-[1.3rem] rounded-full ">
+        <div className="flex justify-between items-center py-2 px-4 m-2  focus-within:shadow-lg border text-[1.1rem] lg:text-[1.3rem] rounded-full ">
           <BiSearchAlt2 />
           <input
             value={searchInput}
