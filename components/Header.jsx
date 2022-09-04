@@ -9,13 +9,13 @@ export default function Header() {
         <p className="link">About</p>
         <p className="link">Store</p>
       </div>
-      <div className="flex space-x-4 items-center">
+      <div className="flex gap-4 items-center">
         <p className="link">Gmail</p>
         <p className="link ">Images</p>
-        <HiViewGrid className="text-[1.1rem] mr-[2rem] flex-shrink-0" />
+        <HiViewGrid className="text-[1.1rem] lg:text-[1.5rem]  flex-shrink-0" />
         <Image
           className=" rounded-full scale-75 lg:scale:100 "
-          src="https://coaching.papareact.com/ai9"
+          src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg"
           height="50"
           width="50"
           loading="lazy"

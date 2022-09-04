@@ -9,7 +9,7 @@ import SearchResults from "../components/SearchResults";
 function Search({ results }) {
   const router = useRouter();
   return (
-    <div className="bg-white h-full w-full">
+    <div className="bg-white h-full w-full p-2">
       <Head>
         <title>{router.query.input} - Google Search</title>
         <link rel="icon" href="/favicon.ico" />

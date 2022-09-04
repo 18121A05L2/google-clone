@@ -6,6 +6,7 @@ module.exports = {
       "coaching.papareact.com",
       "images.wallpapersden.com",
       "upload.wikimedia.org",
+      "mymodernmet.com",
     ],
   },
 };
